@@ -1,10 +1,8 @@
 
-
-
-
 let secreto=Math.floor(Math.random()*100);
 
 console.log(secreto);
+console.log(typeof secreto);
 alert("El numero secreto es: " + secreto);
 
 //const secreto = 37;
