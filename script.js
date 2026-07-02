@@ -47,7 +47,31 @@ if(intento3 === secreto){
     alert("El numero es muy bajo")
 }
 
+let intento4 = Number(prompt("Intento 4: Ingresa numero secreto:"));
 
+if(intento4 === secreto){
+    console.log("Felicidades, el numero es correcto")
+    alert("Felicidades, el numero es correcto !!!")
+} else if (intento4 > secreto) {
+    console.log("El numero, es muy alto")
+    alert("El numero es muy alto !!!")
+} else {
+    console.log("El numero, es muy bajo")
+    alert("El numero es muy bajo")
+}
+
+let intento5 = Number(prompt("Intento 5: Ingresa numero secreto:"));
+
+if(intento5 === secreto){
+    console.log("Felicidades, el numero es correcto")
+    alert("Felicidades, el numero es correcto !!!")
+} else if (intento5 > secreto) {
+    console.log("El numero, es muy alto")
+    alert("El numero es muy alto !!!")
+} else {
+    console.log("El numero, es muy bajo")
+    alert("El numero es muy bajo")
+}
 //let secreto=Math.floor(Math.random()*100);
 
 //console.log(secreto);
